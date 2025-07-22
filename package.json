@@ -1,5 +1,5 @@
 {
-  "name": "@semanticpen/mcp-server",
+  "name": "semantic-pen-mcp-server",
   "version": "1.0.0",
   "description": "MCP server for Semantic Pen - Create, view, and manage articles and projects",
   "type": "module",
@@ -26,7 +26,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/semanticpen/mcp-server"
+    "url": "https://github.com/pushkarsingh32/semantic-pen-mcp-server"
   },
   "homepage": "https://semanticpen.com",
   "dependencies": {

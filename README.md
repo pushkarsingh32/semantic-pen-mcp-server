@@ -15,7 +15,7 @@ Add to your `~/.config/claude-code/settings.json`:
   "mcpServers": {
     "semantic-pen": {
       "command": "npx",
-      "args": ["-y", "@semanticpen/mcp-server@latest"],
+      "args": ["-y", "semantic-pen-mcp-server@latest"],
       "env": {
         "SEMANTIC_PEN_API_KEY": "your-api-key-here"
       }
@@ -33,7 +33,7 @@ Add to your Cursor MCP settings:
   "mcpServers": {
     "semantic-pen": {
       "command": "npx",
-      "args": ["-y", "@semanticpen/mcp-server@latest"],
+      "args": ["-y", "semantic-pen-mcp-server@latest"],
       "env": {
         "SEMANTIC_PEN_API_KEY": "your-api-key-here"
       }
@@ -109,7 +109,7 @@ articleId (string): The ID of the article to retrieve
 If you prefer to install manually:
 
 ```bash
-npm install -g @semanticpen/mcp-server
+npm install -g semantic-pen-mcp-server
 ```
 
 Then use in your MCP config:
