@@ -1,0 +1,43 @@
+{
+  "name": "@semanticpen/mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Semantic Pen - Create, view, and manage articles and projects",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "semantic-pen-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "dev": "tsc && node --watch dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "semantic-pen", 
+    "articles",
+    "ai",
+    "writing",
+    "claude",
+    "cursor"
+  ],
+  "author": "Semantic Pen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/semanticpen/mcp-server"
+  },
+  "homepage": "https://semanticpen.com",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.9",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
