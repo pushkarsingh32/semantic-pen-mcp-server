@@ -1,6 +1,6 @@
 {
   "name": "semantic-pen-mcp-server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Official MCP server for Semantic Pen AI article generator - Create SEO-optimized content with AI automation from Claude Code and Cursor",
   "type": "module",
   "main": "dist/index.js",

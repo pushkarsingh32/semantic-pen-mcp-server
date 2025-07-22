@@ -68,6 +68,26 @@ Add to your Cursor MCP settings:
 
 Replace `your-api-key-here` with your actual Semantic Pen API key.
 
+### For Windsurf
+
+Add to your `~/.codeium/windsurf/mcp_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "semantic-pen": {
+      "command": "npx",
+      "args": ["-y", "semantic-pen-mcp-server@latest"],
+      "env": {
+        "SEMANTIC_PEN_API_KEY": "your-api-key-here"
+      }
+    }
+  }
+}
+```
+
+Then restart Windsurf to load the new MCP server. Access through Cascade → Configure (hammer icon).
+
 ## Features
 
 - 🤖 **AI-Powered Article Creation** - Generate SEO-optimized articles with advanced AI automation
