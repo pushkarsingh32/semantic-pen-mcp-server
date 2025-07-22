@@ -6,6 +6,30 @@ A one-click MCP server for Semantic Pen that allows you to create, view, and man
 
 Just add this to your MCP configuration - no installation required!
 
+### One-Click Install for Cursor
+
+[![Add to Cursor](https://img.shields.io/badge/Add_to-Cursor-blue?style=for-the-badge&logo=cursor)](https://cursor.com/install-mcp?name=semantic-pen&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsInNlbWFudGljLXBlbi1tY3Atc2VydmVyQGxhdGVzdCJdLCJlbnYiOnsiU0VNQU5USUNfUEVOX0FQSV9LRVkiOiJ5b3VyLWFwaS1rZXktaGVyZSJ9fQ%3D%3D)
+
+**⚠️ Important**: After clicking the button above, you'll need to replace `your-api-key-here` with your actual Semantic Pen API key in the Cursor settings.
+
+<details>
+<summary>What does this button do?</summary>
+
+The button automatically adds this configuration to your Cursor MCP settings:
+
+```json
+{
+  "command": "npx",
+  "args": ["-y", "semantic-pen-mcp-server@latest"],
+  "env": {
+    "SEMANTIC_PEN_API_KEY": "your-api-key-here"
+  }
+}
+```
+
+You just need to replace the API key placeholder with your actual key.
+</details>
+
 ### For Claude Code
 
 Add to your `~/.config/claude-code/settings.json`:
