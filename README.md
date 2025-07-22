@@ -123,7 +123,7 @@ articleId (string): The ID of the article to retrieve
 
 ## Getting Your API Key
 
-1. Visit [SemanticPen.com](https://semanticpen.com)
+1. Visit [SemanticPen.com](https://www.semanticpen.com)
 2. Sign up or log in to your account
 3. Go to your API settings to generate an API key
 4. Copy the key and use it in your MCP configuration
@@ -155,6 +155,6 @@ Then use in your MCP config:
 ## Support
 
 For issues or questions:
-- Visit [SemanticPen.com](https://semanticpen.com) for support
+- Visit [SemanticPen.com](https://www.semanticpen.com) for support
 - Check your API key is valid and has sufficient credits
 - Ensure stable internet connection for API calls

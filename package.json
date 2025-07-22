@@ -28,7 +28,7 @@
     "type": "git",
     "url": "https://github.com/pushkarsingh32/semantic-pen-mcp-server"
   },
-  "homepage": "https://semanticpen.com",
+  "homepage": "https://www.semanticpen.com",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
     "axios": "^1.6.0"
