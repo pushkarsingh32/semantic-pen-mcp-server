@@ -1,6 +1,6 @@
 # Semantic Pen MCP Server
 
-A one-click MCP server for Semantic Pen that allows you to create, view, and manage articles and projects directly from Claude Code and Cursor.
+The official MCP server for **Semantic Pen** - an advanced **AI article generator** and **SEO content writer**. Create, manage, and optimize SEO-friendly articles directly from Claude Code and Cursor with powerful AI automation.
 
 ## Quick Setup (Recommended)
 
@@ -70,12 +70,13 @@ Replace `your-api-key-here` with your actual Semantic Pen API key.
 
 ## Features
 
-- 🔑 **Automatic API Key Verification** - Verifies your API key on startup
-- 📋 **Project Management** - View all your projects from article queue  
-- 📚 **Article Management** - View articles within specific projects
-- 🔍 **Project Search** - Search projects by name
-- ✍️ **Article Creation** - Create new articles with customizable settings
-- 📄 **Article Retrieval** - Get specific article content and metadata with full HTML
+- 🤖 **AI-Powered Article Creation** - Generate SEO-optimized articles with advanced AI automation
+- 📊 **SEO Content Optimization** - Built-in keyword targeting and SEO best practices
+- 📋 **Content Project Management** - Organize and manage your AI writing projects efficiently
+- 🔍 **Smart Content Search** - Find and filter articles across projects instantly
+- ⚡ **Automated Workflow** - Streamline your content creation process with AI automation
+- 📄 **Full Content Access** - Retrieve complete article HTML ready for publishing
+- 🔑 **Seamless Authentication** - Automatic API verification for hassle-free setup
 
 ## Available Tools
 
@@ -98,14 +99,14 @@ projectName (string): The project name to search for (partial match)
 ```
 
 ### `create_article`
-Create a new article
+Generate SEO-optimized AI articles with advanced customization
 ```
-targetArticleTopic (string): The topic/title for the article
-targetKeyword (string, optional): Target SEO keyword
-wordCount (number, optional): Target word count (default: 1000)
-language (string, optional): Language (default: English)
-articleType (string, optional): Type of article (default: Article)
-toneOfVoice (string, optional): Tone of voice (default: Professional)
+targetArticleTopic (string): The article topic/title for AI content generation
+targetKeyword (string, optional): Primary SEO keyword for optimization
+wordCount (number, optional): Target word count for content length (default: 1000)
+language (string, optional): Content language (default: English)
+articleType (string, optional): Article format type (default: Article)
+toneOfVoice (string, optional): Writing tone and style (default: Professional)
 ```
 
 ### `get_article`
@@ -116,17 +117,17 @@ articleId (string): The ID of the article to retrieve
 
 ## Example Usage
 
-1. **View Projects**: Use `get_projects` to see all your projects
-2. **View Project Articles**: Use `get_project_articles` with a project ID to see articles in that project
-3. **Create Article**: Use `create_article` with a topic like "How to Use AI for Content Creation"
-4. **Get Article Content**: Use `get_article` with the returned article ID to see the generated content
+1. **Browse Content Projects**: Use `get_projects` to view your AI article generation projects
+2. **Explore Project Content**: Use `get_project_articles` to see all AI-generated articles in a specific project
+3. **Generate AI Articles**: Use `create_article` with topics like "AI Content Marketing Strategies for 2024"
+4. **Access Generated Content**: Use `get_article` to retrieve your SEO-optimized article content ready for publishing
 
 ## Getting Your API Key
 
-1. Visit [SemanticPen.com](https://www.semanticpen.com)
-2. Sign up or log in to your account
-3. Go to your API settings to generate an API key
-4. Copy the key and use it in your MCP configuration
+1. Visit [SemanticPen.com](https://www.semanticpen.com) - Your AI article writing platform
+2. Create your account or log in to access the AI content generator
+3. Navigate to API settings to generate your content automation key
+4. Copy the API key and configure it for seamless AI article generation
 
 ## Manual Installation (Alternative)
 

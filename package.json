@@ -1,7 +1,7 @@
 {
   "name": "semantic-pen-mcp-server",
-  "version": "1.0.1",
-  "description": "MCP server for Semantic Pen - Create, view, and manage articles and projects",
+  "version": "1.0.2",
+  "description": "Official MCP server for Semantic Pen AI article generator - Create SEO-optimized content with AI automation from Claude Code and Cursor",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -14,13 +14,16 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [
-    "mcp",
-    "semantic-pen", 
-    "articles",
-    "ai",
-    "writing",
-    "claude",
-    "cursor"
+    "ai-article-generator",
+    "seo-content-writer", 
+    "ai-writing-automation",
+    "semantic-pen",
+    "mcp-server",
+    "ai-content-creation",
+    "seo-optimization",
+    "automated-writing",
+    "claude-code",
+    "cursor-ai"
   ],
   "author": "Semantic Pen",
   "license": "MIT",
